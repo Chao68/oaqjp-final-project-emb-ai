@@ -22,10 +22,3 @@ class TestEmotionDetection(unittest.TestCase):
         self.assertEqual(result_5['dominant_emotion'], 'fear')
 
 unittest.main()
-    '''Render the index page to the user, this is where the text string to be
-    analyzed is provided and a response is displayed back to the user.
-    '''
-    return render_template('index.html')
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
