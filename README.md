@@ -1,4 +1,4 @@
-# Repository for Final Project - Emotion Detector
+# Final project - Emotion Detector
 For this final project, we will assume the role of a software engineer who needs to develop an AI-based web application. we will analyze the scenario and perform the following tasks:
 
 Task 1: Clone the project repository
