@@ -10,6 +10,6 @@ def emotion_detector(text_to_analyze):
     formated_response = json.loads(response.text)
     emotions = formatted_response['emotionPredictions'][0]['emotion']
     dominant_emotion = max(emotions.items(), key=lamda x: x[1])
-    emotion['dominant_emotion'] = dominant_emotion
+    emotions['dominant_emotion'] = dominant_emotion
     return emotions
 
