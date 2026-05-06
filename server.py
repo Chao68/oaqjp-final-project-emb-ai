@@ -24,7 +24,12 @@ def emotion_analyzer():
 
     if dominant_emotion is None:
         return "Invalid text! Please try again"
-   
+
+    response_str = f"""For the given statement, the system response is
+    'anger': {anger}, 'disgust': {disgust}, 'fear': {fear}, 'joy': {joy}, 'sadness': {sadness}.
+    The dominant emotion is <strong>{dominant_emotion}</strong>."""
+    return response_str
+
 @app.route("/")
 def render_index_page():
     '''Render the index page to the user, this is where the text string to be
